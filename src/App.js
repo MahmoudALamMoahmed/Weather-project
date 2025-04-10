@@ -59,7 +59,7 @@ function App() {
     // Make a request for a user with a given ID
     axios
       .get(
-        "https://api.openweathermap.org/data/2.5/weather?lat=44.34&lon=10.99&appid=05aa483ecc47aacec12b96d5cb4b2abd",
+        "https://api.openweathermap.org/data/2.5/weather?lat=30.033333&lon=31.233334&appid=05aa483ecc47aacec12b96d5cb4b2abd",
         {
           cancelToken: new axios.CancelToken((c) => {
             cancelAxios = c;
